@@ -18,8 +18,8 @@ namespace webApi.Models
 
         public required DateTime Dt_cad { get; set; } = DateTime.Now;
 
-        public BancoModel Bancos { get; set; }
-        public FormaPagamentoModel FormaPagamento { get; set; }
+        public BancoModel? Bancos { get; set; }
+        public FormaPagamentoModel? FormaPagamento { get; set; }
 
     }
 }

@@ -7,6 +7,6 @@ namespace webApi.Models
         public required string Codigo { get; set; }
         public bool Ativo { get; set; }
 
-        public List<ContaModel> Contas { get; set; }
+        public List<ContaModel>? Contas { get; set; }
     }
 }
